@@ -1,0 +1,35 @@
+layout {
+    tab name="main" {
+        pane size=1 borderless=true {
+            plugin location="tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane name="code" size="80%" command="nvim"
+            pane name="server" size="20%"
+        }
+    }
+    tab name="index-2" {
+        pane size=1 borderless=true {
+            plugin location="tab-bar"
+        }
+        pane
+    }
+    tab name="index-3" {
+        pane size=1 borderless=true {
+            plugin location="tab-bar"
+        }
+        pane
+    }
+    tab name="index-4" {
+        pane size=1 borderless=true {
+            plugin location="tab-bar"
+        }
+        pane
+    }
+    tab name="index-5" {
+        pane size=1 borderless=true {
+            plugin location="tab-bar"
+        }
+        pane
+    }
+  }
