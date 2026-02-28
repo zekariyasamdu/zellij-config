@@ -3,16 +3,16 @@ layout {
         pane size=1 borderless=true {
             plugin location="tab-bar"
         }
-        pane split_direction="vertical" {
-            pane name="code" size="80%" command="nvim"
-            pane name="server" size="20%"
+        pane {
+            pane name="code" size="90%" command="nvim"
+            pane name="server" size="10%"
         }
     }
     tab name="index-2" {
         pane size=1 borderless=true {
             plugin location="tab-bar"
         }
-        pane
+        pane name="ai"
     }
     tab name="index-3" {
         pane size=1 borderless=true {
